@@ -1,0 +1,93 @@
+{% extends "index.html" %} 
+
+{% block title %}Research Portfolio{% endblock %}
+
+{% block content %}
+
+   <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="https://scontent-lga3-1.cdninstagram.com/vp/eb4c067c469c3d80c94839686aa8e050/5D4180B5/t51.2885-15/e15/11272931_1582185235400772_265243814_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com" alt="" width="306"height="306">
+                    <div class="intro-text">
+                        <h1 class="name">Research</h1>
+                        <hr class="star-light">
+                        <span class="skills">Let's Play!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+            <!-- Portfolio Grid Section -->
+    
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Simple Python Apps</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+			<p> "Collaborate with me! </p>
+
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+			
+                <h1>Addition</h1>	                
+                    <a href="/add_numbers" target="_blank" class="portfolio-link" data-toggle="modal">	
+                         <div class="caption">	
+                            <div class="caption-content">	
+                                <i class="fa fa-search-plus fa-3x"></i>	
+                            </div>	
+                        </div>	
+                        <img src="/static/img/add_preview.png" target="_blank" class="img-responsive" alt="Cabin">	
+                    </a>	
+                </div>
+                  
+                <div class="col-sm-4 portfolio-item">
+                <h1>Shopping List</h1>
+                    <a href="/shopping_list" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="/static/img/shopping_preview.png" class="img-responsive" alt="Slice of cake">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                <h1>Current Time</h1>
+                    <a href="/time" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="/static/img/time_preview.png" class="img-responsive" alt="Circus tent">
+                    </a>
+                </div>      
+            </div>
+        </div>
+    </section>
+
+         <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2></h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>I've designed experiments across all spaces of engineering and sciences. My specialty is in micro/nanofabrication of biomaterials for customizing microenvironments as a cell study platform. I primarily worked with lymphocytes as well as fibroblasts and Circulating Tumor Cells. My interest is in the interaction and cell signaling between lymphocytes and microbes (aka across internal/external microbiome: gut, lung, air, water...skin) </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock%}
