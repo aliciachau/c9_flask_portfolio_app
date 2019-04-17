@@ -79,7 +79,7 @@ def time_post():
 
          
 @app.route('/research')
-def research():
+def research_page():
 	# testing stuff
 	return render_template('research.html')
 
