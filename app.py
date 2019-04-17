@@ -78,6 +78,10 @@ def time_post():
             return render_template('time.html', result=answer)
 
          
+@app.route('/research')
+def research():
+	# testing stuff
+	return render_template('research.html')
 
 @app.route('/python_apps')
 def python_apps_page():
