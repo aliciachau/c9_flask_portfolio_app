@@ -1,17 +1,17 @@
 {% extends "index.html" %} 
 
-{% block title %}Addition{% endblock %}
+{% block title %}App Development{% endblock %}
 
 {% block content %}
 
   <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="/static/img/add.png" alt="">
+                    <img class="img-responsive" src="/static/img/shopping_cart.png" alt="">
                     <div class="intro-text">
                         <h1 class="name"></h1>
                         <hr class="star-light">
-                        <span class="skills">Let's Add some numbers!</span>
+                        <span class="skills">Let's see what we can get done today!</span>
                     </div>
                 </div>
             </div>
@@ -24,38 +24,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Add Numbers</h2>
+                    <h2>Smart List</h2>
                     <hr class="star-primary">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" action="/add_numbers" method="POST">
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label for="name">Enter Numbers</label>
-                                <input type="text" name="text" class="form-control" placeholder="Please Enter Numbers" name="my-form" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div> 
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 col-lg-offset-2">
-                                <button type="submit" class="btn btn-success btn-lg">Calculate</button>
-                                <h2 class="col-lg-12 text-right"></h2>
-                            </div>
-                        </div>
-                          <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Answer = {{result}}</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-                    </form>
+           <script src="https://anvil.works/embed.js" async></script>
+<iframe style="width:100%;" data-anvil-embed src="https://WG4SCDLKM7HZCT2P.anvil.app/3GLLIQWPVIOUDUTWOQXW4SZN"></iframe>
+          </div>
+          <p> Workout Buddy (iOS phone app)</p>
+          <a href="https://github.com/aliciachau/workoutbuddy/blob/master/README.md"> 
+                        <div class="caption">
+                            <div class="caption-content">
+                               </div>
+          <img class="img-responsive" src="/static/img/workoutbuddy.png" alt="">
+          <span class="skills">Let's generate a workout!</span>
         </div>
     </div>
 </section>
@@ -63,5 +44,3 @@
 
 {% block footer%}
 {% endblock %}
-
-
